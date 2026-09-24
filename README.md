@@ -22,7 +22,7 @@ One-page site for a Leskovac firm that sells firewood, hauls freight and tows ve
 
 Ivković Prevoz from Leskovac does three unrelated jobs. It sells beech, oak and hornbeam firewood by the metre with delivery and unloading, hauls freight by truck anywhere in Serbia, and tows vehicles around Leskovac, Lebane and the towns nearby. People search for each service with different words and in a different season, and all three are arranged over the phone.
 
-So I built the page without a contact form or a single input field. There are ten places to call from instead, and on phones a bar with the number stays at the bottom of the screen. Someone whose car broke down on the road will not wait for an email reply. There are no photos either: the background of the first screen is a vector illustration written into the CSS, so the page opens fast on a weak mobile signal.
+So I built the page without a contact form or a single input field. There are ten places to call from instead, and on phones a bar with the number stays at the bottom of the screen. Someone whose car broke down on the road will not wait for an email reply. There are no photos either: the first screen is a dark gradient with a few circles, written into the CSS, so the page opens fast on a weak mobile signal.
 
 ## What I built
 
@@ -30,7 +30,7 @@ So I built the page without a contact form or a single input field. There are te
 - A towing section split by situation (a breakdown on the road, a car bought in another town, vans), because people search for it in several ways
 - Ten call links and a call bar on phones; with no form, spam bots have nothing to fill in
 - Fonts and icons served from the site's own domain, and an nginx page cache that falls back to the last good copy if PHP fails
-- Seven JSON-LD blocks, with towing described as a separate service covering five towns
+- JSON-LD for the business and the site, while the older blocks, with towing as a separate service for five towns, stay in the code as an archive
 - A fix for cards that stayed invisible on phones after a jump from the menu: the reveal threshold is now zero and anything already scrolled past is shown
 
 ## Results

@@ -22,7 +22,7 @@ Sajt na jednoj strani za firmu iz Leskovca koja prodaje ogrevno drvo, vozi robu 
 
 Ivković Prevoz iz Leskovca radi tri posla koja nemaju mnogo zajedničkog. Prodaje ogrevno drvo (bukvu, hrast i grab) na metar, sa dostavom i istovarom, vozi robu kamionom po celoj Srbiji i šlepuje vozila po Leskovcu, Lebanu i okolnim mestima. Svaku uslugu ljudi traže drugim rečima i u drugo doba godine, a sve tri se dogovaraju telefonom.
 
-Zato sam stranu napravio bez kontakt forme i bez ijednog polja za unos. Umesto nje ima deset mesta za poziv, a na telefonu traka sa brojem stoji pri dnu ekrana. Čovek kome je auto stao na putu neće da čeka odgovor na mejl. Nema ni fotografija: pozadina prvog ekrana je vektorska ilustracija upisana u CSS, pa se strana brzo otvara i na slabom mobilnom signalu.
+Zato sam stranu napravio bez kontakt forme i bez ijednog polja za unos. Umesto nje ima deset mesta za poziv, a na telefonu traka sa brojem stoji pri dnu ekrana. Čovek kome je auto stao na putu neće da čeka odgovor na mejl. Nema ni fotografija: prvi ekran nosi taman gradijent sa nekoliko krugova, upisan u CSS, pa se strana brzo otvara i na slabom mobilnom signalu.
 
 ## Šta sam uradio
 
@@ -30,7 +30,7 @@ Zato sam stranu napravio bez kontakt forme i bez ijednog polja za unos. Umesto n
 - Sekcija o šlepovanju podeljena po situacijama (kvar na putu, auto kupljen u drugom gradu, kombiji), jer se isti posao traži na više načina
 - Deset linkova za poziv i traka sa brojem na telefonu; forme nema, pa automati nemaju šta da popune
 - Fontovi i ikone sa sopstvenog domena, a nginx kešira gotovu stranu i daje poslednju ispravnu verziju ako PHP zakaže
-- Sedam JSON-LD blokova, u kojima je šlepovanje izdvojeno kao posebna usluga za pet mesta
+- JSON-LD za firmu i sajt, dok su stariji blokovi, sa šlepovanjem kao posebnom uslugom za pet mesta, ostali u kodu kao arhiva
 - Popravljene kartice koje su na telefonu ostajale nevidljive posle skoka iz menija: prag je sada nula, a sve što je već ostalo iznad odmah se prikazuje
 
 ## Merenja
