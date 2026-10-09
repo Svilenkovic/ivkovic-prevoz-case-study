@@ -4,7 +4,7 @@
 
 One-page site for a Leskovac firm that sells firewood, hauls freight and tows vehicles, with ten call links and no contact form.
 
-**[ivkovicprevoz.rs](https://ivkovicprevoz.rs/)** · [Case study (in Serbian)](https://svilenkovic.com/radovi/ivkovic-prevoz) · [Srpski](README.sr.md)
+**[ivkovicprevoz.rs](https://ivkovicprevoz.rs/)** · [Case study (in Serbian)](https://svilenkovic.rs/radovi/ivkovic-prevoz) · [Srpski](README.sr.md)
 
 > [!NOTE]
 > Client project. The source code belongs to the client and stays in a private repository. This page describes what I built and how.
@@ -37,10 +37,10 @@ So I built the page without a contact form or a single input field. There are te
 
 | | Performance | Accessibility | Best practices | SEO |
 | :-- | :-: | :-: | :-: | :-: |
-| Mobile | 91 | 100 | 100 | 100 |
-| Desktop | 99 | 100 | 100 | 100 |
+| Mobile | 90 | 100 | 100 | 100 |
+| Desktop | 100 | 100 | 100 | 100 |
 
-PageSpeed Insights, lab test of the live site, September 2026. Security headers: 6 of 6. HTML validator: no errors. axe accessibility check: no violations. Structured data: `LocalBusiness`.
+PageSpeed Insights, lab test of the live site, October 2026. Security headers: 6 of 6. HTML validator: no errors. axe accessibility check: no violations. Structured data: `LocalBusiness`.
 
 ## Screenshots
 
